@@ -9,30 +9,25 @@ import numpy as np
 
 import social_companion as sc
 
-if __name__ == '__main__':
-    robot_state = np.array([[-4.0, -0.5, np.deg2rad(0.0), 0.0, np.deg2rad(0.0)]])
-    # User state, ped_state = [px py vx vy]
-    user_state = np.array([[-4.0, 0.0, 1, 0.0]])
+if __name__ == "__main__":
+    robot_state = np.array([[0.0, -0.5, np.deg2rad(0.0), 0.0, np.deg2rad(0.0)]])
+    user_state = np.array([[0.0, 0.0, 1, 0.0]])
+    # Passing
     ped_state = np.array(
         [
             [3, -0.5, 0, 0],
-            [10, -0.5, 0, 0],
-            [10, -2, 0, 0],
         ]
     )
-    goal = np.array([15.0, -0])
-    # list of linear obstacles given in the form of (x_min, x_max, y_min, y_max)
-    # obs = [[1,2, -1, 1]]
+    goal = np.array([4, -0])
     obs = []
 
     sim = sc.Simulator(
         robot_state=robot_state,
         user_state=user_state,
         ped_state=ped_state,
-        step_width=0.2,
+        step_width=0.05,
         obstacles=obs,
         goal=goal,
         use_plt=True,
     )
-    # print(sim.user_states)
     sim.step(200)
