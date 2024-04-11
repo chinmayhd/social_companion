@@ -2,12 +2,12 @@
 
 Crossing scenario
 
-https://github.com/chinmayhd/social_companion/assets/116327618/f2d77d51-d939-4623-808f-46cffd2d3345
+https://github.com/chinmayhd/social_companion/assets/116327618/f99489f3-6afd-4b96-82a8-529d6e989038
 
 Passing scenario
 
-https://github.com/chinmayhd/social_companion/assets/116327618/5c3791b8-252b-4f20-ad95-c713c01dc3f4
+https://github.com/chinmayhd/social_companion/assets/116327618/b0af2a8b-b09c-469e-b40c-d95fa8f7564e
 
 Static scenario 
 
-https://github.com/chinmayhd/social_companion/assets/116327618/d01a5211-651c-43a4-af6b-6fbaf1d3a1c3
+https://github.com/chinmayhd/social_companion/assets/116327618/a29464d8-969e-4e1e-b10d-1fc4d6d1445a
