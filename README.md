@@ -1,4 +1,4 @@
-# Social_companion Videos
+# Social companion ROS wrapper videos
 
 Crossing scenario
 
